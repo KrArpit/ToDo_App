@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List | CodeWithLavi</title>
+    <!-- Iconscout Link For Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="input-area">
+            <input type="text" class="inputTask" placeholder="Add a new task"/>
+            <button class="addBtn">Add</button>
+        </div>
+        <div class="display-section">
+        <div class="control">
+            <div class="status">
+                <span id="all" class="active">All</span>
+                <span id="pending">Pending</span>
+                <span id="completed">Completed</span>
+            </div>
+            <button class="clearBtn">Clear All</button>
+        </div>
+        <div class="task-section">
+            <ul class="task-lists"></ul>
+        </div>
+    </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="./script.js"></script>
+</body>
+</html>
